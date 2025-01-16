@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
 export default function Home() {
-  const [advice, setAdvice] = useState("Clique no botão para obter um conselho (em inglês)!");
+  const [advice, setAdvice] = useState(
+    "Clique no botão para obter um conselho (em inglês)!",
+  );
 
   const getAdvice = async () => {
     try {
