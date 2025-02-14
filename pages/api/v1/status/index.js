@@ -1,6 +1,6 @@
 'use strict';
 
-import database from "../../../../infra/database.js";
+import database from "infra/database.js";
 
 const status = async (req, res) => {
   const result = await database.query('SELECT 2 + 3;');
